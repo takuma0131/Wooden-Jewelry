@@ -31,14 +31,21 @@ a {
 a:hover {
   color: blue;
 }
+p {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 li {
   padding: 0.4rem 0rem 0rem 1rem;
 }
 #concept {
   display: flex;
+  margin: 3% 3% 5% 3%;
 }
 #work {
   display: flex;
+  margin: 3%;
+  align-items: center;
 }
 .text img {
   width: 50%;
@@ -49,11 +56,25 @@ li {
 }
 .line {
   vertical-align: middle;
+  text-align: left;
+  padding: 0 7%;
+}
+.line h2 {
+  font-size: 1.5rem;
+}
+.span {
+  font-size: 1rem;
+}
+.line-text {
 }
 #footer {
   display: flex;
   justify-content: space-between;
+  font-size: 1rem;
 }
 #footer small {
+  padding: 2%;
+}
+#footer p {
   padding: 2%;
 }
